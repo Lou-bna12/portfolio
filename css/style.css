@@ -1,0 +1,188 @@
+body, html {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+
+    font-family: 'Raleway', sans-serif;
+
+}
+
+a, a:hover  {
+    text-decoration: none;
+    
+}
+.container-fluid {
+    padding: 0;
+
+}
+
+
+.btn-custom {
+    background-color: #3498DB ;
+    color: #fff;
+}
+
+.separator {
+    height: 3px;
+    width: 5%;
+    border: none;
+    box-shadow: none ;
+    background-color: #3498DB;
+
+
+
+
+}
+
+/* Header */
+.header {
+    background-color: #EEEEEE;
+    height: 70px;
+    line-height: 70px;
+   
+}
+.logo {
+    color : #9DB2BF;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    float: left;
+
+}
+.menu {
+    float: right;
+
+}
+.menu a {
+    color : #1A120B;
+    margin-right: 20px;
+
+}
+.menu a:hover {
+    color :#9DB2BF;
+
+}
+
+
+/* banniére */
+
+.banner {
+    width: 100%;
+    max-width: 100%;
+
+}
+.ban {
+    width:  100%;
+    max-width: 100%;
+    position: relative;
+
+}
+.ban img {
+    width: 100%;
+    max-width: 100%;
+   
+
+}
+.inner-banner {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    
+}
+
+
+
+/* about */
+#about {
+    text-align: center;
+    padding-top: 10%;
+}
+.about article {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.about article h2 {
+    text-align: center;
+    
+   
+}
+
+
+/* portfolio */
+.portfolio {
+   background-color: #EEEEEE;
+   height: 100px;
+}
+#portfolio {
+    padding-top: 12px;
+    text-align: center;
+    
+}
+.portfolio .item-folio {
+    height: 100px;
+    background-color: #F5EBE0;
+}
+
+/* contact */
+.footer{
+    background-color: #413F42;
+    height: 600px;
+  
+}
+.footer p {
+    color: #fff;
+    text-align: center;
+    padding-top: 5%;
+   
+}
+
+#contact {
+    color: #9DB2BF;
+    text-align: center;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+.formulaireContact{
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+  
+    
+}
+input {
+    margin-bottom: 30px;
+}
+
+input [type=text] {
+    height: 60px;
+    width: 550px;
+    border: none;
+}
+
+input [type=email] {
+    height: 60px;
+    width: 550px;
+    border: none;
+}
+
+textarea{
+    width: 500px;
+    height: 200px;
+    resize: vertical;
+}
+
+.qr_code{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
